@@ -1,0 +1,54 @@
+#header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 70px;
+    border-bottom:  rgba(110, 109, 109, 0.61) solid 1px;
+}
+#Luxebet{
+    display: flex;
+    flex-direction: row;
+}
+#Luxebet a {
+    text-decoration: none;
+    color: white;
+}
+#Luxebet p {
+    color: white;
+    font-size: 28px;
+    font-weight: 600;
+}
+.LogoHeader {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 3px;
+    width: 55px;
+    height: 60px;
+}
+#nav {
+    display: flex;
+    margin-right: 10px;
+}
+#nav a {
+    margin-top: 20px;
+    text-decoration: none;
+    font-size: 20px;
+    margin-right: 15px;
+    color: white;
+}
+#nav a:hover{
+    color: rgba(133, 128, 128, 0.671);
+}
+#nav #Cad {
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(241, 44, 76);
+    margin-top: 12px;
+    height: 45px;
+}
+#nav #Cad:hover {
+    opacity: 80%;
+}

@@ -1,0 +1,67 @@
+#mine {
+    margin-bottom: 20px;
+    width: 80%;
+    height: 500px;
+    margin-left: 10%;
+    background-image: url(../../../image/bomb.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#gameMine {
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.cardsArea{
+    width: 100%;
+    height: 60%;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.block {
+    width: 25%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid 1px rgb(218, 217, 217);
+    background-image: url(../../../image/Casino.png);
+    background-size: cover;
+    background-position: center center;
+}
+.block:hover {
+    width: 26%;
+}
+#mineGamePlay {
+    margin-top: 30px;
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+#mineGamePlay input {
+    border: none;
+    border-radius: 10px;
+    color:wheat;
+    background-color: rgb(82, 76, 76);
+}
+#mineGamePlay button{
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: 900;
+    font-size: 18px;
+}
+#start {
+    background-color: green;
+}
+#mineGamePlay button:hover{
+    opacity: 55%;
+}

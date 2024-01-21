@@ -1,0 +1,76 @@
+#Prop {
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(180, 175, 175, 0.199);
+    backdrop-filter: blur(4px);
+    height: 300px;
+    width: 80%;
+    margin-left: 15%;
+    margin-top: -600px;
+    
+} 
+#Prop h1 {
+    margin-left: 30px;
+    color: white;
+    font-size: 25px;
+}
+#Prop p {
+    margin-top: 40px;
+    margin-left: 20px;
+    color: white;
+    font-size: 18px;
+    line-height: 25px;
+}
+#BtnCad {
+    font-size: 18px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(241, 44, 76);
+    margin-left: 20px;
+    margin-top: 10px;
+    width: 250px;
+    height: 45px;
+}
+#BtnCad a {
+    text-decoration: none;
+    color: white;
+}
+#BtnCad:hover {
+    opacity: 80%;
+}
+#two img {
+    margin-top: 3px;
+    margin-left: 120px;
+    width: 590px;
+}
+@media(max-width: 800px){
+    #Prop {
+        display: flex;
+    flex-direction: row;
+    background-color: rgba(180, 175, 175, 0.199);
+    backdrop-filter: blur(4px);
+    margin-top: 10px;
+    height: 300px;
+    margin-left: 5%;
+    width: 90%;
+    }
+    #two img {
+        display: none;
+    }
+    #BtnCad {
+        color: white;
+        font-size: 18px;
+        font-weight: 600;
+        border: none;
+        border-radius: 5px;
+        background-color: rgb(241, 44, 76);
+        margin-left: 20px;
+        margin-top: 40px;
+        width: 200px;
+        height: 45px;
+    }
+    #BtnCad{
+        margin-top: -20px;
+    }
+}

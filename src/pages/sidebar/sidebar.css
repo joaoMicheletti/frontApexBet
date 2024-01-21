@@ -1,0 +1,32 @@
+#Bar {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    border-right: rgba(110, 109, 109, 0.61) solid 1px;;
+    width: 123px;
+    height: 100vh;
+}
+@media(max-width: 800px){
+    #Bar {
+        display: none;
+    }
+}
+#Bar p {
+    color: white;
+    text-decoration: underline;
+}
+#Bar a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    margin-bottom: 9px;
+}
+#Bar #icon {
+    margin-left: 45px;
+}
+#Bar img {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 45px;
+    width: 30px;
+}

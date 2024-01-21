@@ -1,0 +1,45 @@
+#Footer {  
+    border-left: rgba(110, 109, 109, 0.61) solid 1px;
+    border-top: rgba(110, 109, 109, 0.61) solid 1px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+#Footer img {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 50px;
+}
+h3{
+    margin-left: 10px;
+    color: white;
+}
+#direitos {
+    margin-left: 10px;
+    color: white;
+    font-size: 12px;
+}
+#SocialMidia {
+    text-align: center;
+    color: white;
+    display: flex;
+}
+#md {
+    margin-top: 40px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#Suport {
+    margin-right: 20px;
+    color: white;
+    text-align: center;
+}
+@media(max-width: 800px){
+    #Footer { 
+        margin-top: 150px;display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}

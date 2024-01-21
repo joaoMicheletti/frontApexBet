@@ -1,0 +1,43 @@
+#NossosJogos {
+    background-color: aqua;
+    width: 80%;
+    height: auto;
+    margin-left: 15%;
+    background-color: rgba(180, 175, 175, 0.199);
+    backdrop-filter: blur(4px);
+    margin-bottom: 100px;
+    
+}
+#aboutgamos {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+#Games {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#Jogo img {
+    width: 100px;
+}
+#Jogo img:hover {
+    width: 120px;
+}
+#nomegame {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+@media(max-width: 800px) {
+    #NossosJogos {
+        margin-left: 10%;
+    }
+    #Games {
+        text-align: center;
+        flex-direction: column;
+    }
+}

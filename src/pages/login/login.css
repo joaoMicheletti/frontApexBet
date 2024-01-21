@@ -1,0 +1,30 @@
+#Form {
+    margin-top: 50px;
+    margin-left: 10%;
+    width: 80%;
+    text-align: center;
+    color: white;
+    font-size: 19px;
+}
+#Form input {
+    width: 80%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+}
+#Form button {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    height: 40px;
+    width: 60%;
+    color: white;
+    font-size: 19px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(241, 44, 76);
+    height: 45px;
+}
+#Form button:hover {
+    opacity: 80%;
+}
